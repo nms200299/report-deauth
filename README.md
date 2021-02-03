@@ -9,10 +9,15 @@
 ● 2.4Ghz, 5.Ghz 대역에 대한 Channel Hopping (채널 변경) 기능
 
 ● all 옵션이 입력되면 모든 채널의 AP에 대해 DeAuth 공격 수행.
+
 	list 방식 : 프로그램 시작시, 검색되는 AP를 리스트하여 해당 AP만 공격합니다.
+
 		(속도 빠름, 새로운 AP 반영 불가)
+
 	beacon 방식 : Beacons 패킷이 잡히는 모든 AP를 공격합니다.
+
 		(속도 느림, 새로운 AP 반영 가능)
+
 
 ● ap 옵션만 입력되면 AP Broadcast 방식으로 DeAuth 공격을 수행.
 
