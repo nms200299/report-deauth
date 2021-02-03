@@ -34,7 +34,7 @@
         -ap <AP MAC> [-stn <STN MAC>] [-ch <CH NUM>]
 
 ## AP Broadcast 공격
-![802 11 dump](https://user-images.githubusercontent.com/12112214/106185759-95e33580-61e6-11eb-8a7c-7057a3ab7c50.png)
+![ap](https://user-images.githubusercontent.com/12112214/106764734-6a939700-667b-11eb-91f2-6eb678967097.png)
 
 ## Station Unicast 공격
 ![stn-ap](https://user-images.githubusercontent.com/12112214/106764210-eb05c800-667a-11eb-951d-1c191f68a736.png)
