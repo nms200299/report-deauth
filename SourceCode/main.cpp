@@ -77,7 +77,7 @@ void usage() {
     printf("             (속도 느림, 새로운 AP 반영 가능)\n");
     printf("\n");
     printf("-ap <AP MAC> [-stn <STN MAC>] [-ch <CH NUM>]:\n");
-    printf("      -ap 옵션만 지정된 경우, 해당 AP를 AP Brodcast 방식으로 공격합니다.\n");
+    printf("      -ap 옵션만 지정된 경우, 해당 AP를 AP Broadcast 방식으로 공격합니다.\n");
     printf("      -stn 옵션과 같이 지정된 경우, 해당 STATION만 Station Unicast 방식으로 공격합니다.\n");
     printf("      -ch 옵션과 같이 지정된 경우, 해당 채널로 바꿔서 공격을 수행합니다.\n");
     exit(0);
@@ -365,10 +365,10 @@ int main(int argc, char *argv[])
     int thread1_status, thread2_status, thread3_status;
 
     switch (check) {
-        case 1: // AP Brodcast
+        case 1: // AP Broadcast
             for (i=0; i<=5; i++) {
                 data.deauth.source_address[i] = data.deauth.bssid[i];
-            }   // 이전에 저장해놨던 값을 AP Brodcast에 맞게 구성.
+            }   // 이전에 저장해놨던 값을 AP Broadcast에 맞게 구성.
                 // Destination addr은 기본 값이 FF:FF:FF:FF:FF:FF 임.
             break;
         case 2: // Station Unicast
