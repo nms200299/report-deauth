@@ -1,5 +1,4 @@
 # report-deauth
-● BoB 9기 공통교육 네트워크 과제
 
 ● DeAuth 공격을 수행할 수 있는 프로그램임.
 
